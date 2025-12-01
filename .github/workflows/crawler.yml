@@ -113,7 +113,7 @@ jobs:
             }
             echo "⚠️ Attempt $i failed, waiting $((i*3)) seconds..."
             sleep $((i * 3))
-          done
+          done 
           
           echo "❌ Failed to push after 5 attempts"
           exit 1
